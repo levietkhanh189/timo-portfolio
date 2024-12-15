@@ -4,7 +4,7 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -17,50 +17,44 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Le Viet Khanh's Portfolio - Game Developer & AI Enthusiast
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+          Hi, I’m Le Viet Khanh, a Unity Developer with 3 years of experience
+          specializing in casual and hyper-casual games. I've contributed to
+          projects with over 50 million downloads and worked on both mobile and
+          web game development. I'm also passionate about artificial
+          intelligence and immersive experiences. You can learn more about my
+          work on my portfolio or reach out to me via{" "}
+          <a href={`mailto:${socialLinks.email}`} target="_blank">
+            email
+          </a>.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          I have experience in C#, Python, Unity, AI, VR, and more. I'm always
+          eager to collaborate and push the boundaries of what’s possible in
+          gaming and AI.
         </p>
         <p>
-          Nextfolio is{" "}
+          You can also find my work on{" "}
           <a href={socialLinks.github} target="_blank">
-            open-source
+            GitHub
           </a>{" "}
-          and fully customizable, making it easy to add more features.
+          and follow my updates on{" "}
+          <a href={socialLinks.twitter} target="_blank">
+            Twitter
+          </a>.
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+          Built with{" "}
+          <a href="https://vercel.com" target="_blank">
+            Vercel
+          </a> and{" "}
+          <a href="https://tailwindcss.com" target="_blank">
+            Tailwind CSS
+          </a>.
         </p>
       </div>
     </section>
