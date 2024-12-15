@@ -47,15 +47,6 @@ export default function Page() {
             Twitter
           </a>.
         </p>
-        <p>
-          Built with{" "}
-          <a href="https://vercel.com" target="_blank">
-            Vercel
-          </a> and{" "}
-          <a href="https://tailwindcss.com" target="_blank">
-            Tailwind CSS
-          </a>.
-        </p>
       </div>
     </section>
   );
